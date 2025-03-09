@@ -30,9 +30,7 @@ This project applies machine learning techniques to classify cars based on their
 - `README.md` → Project documentation  
 - `car-evaluation.ipynb` → Jupyter Notebook with code and analysis  
 - `car-evaluation.pdf` → PDF version of the notebook  
-- `car.data` → Raw dataset  
-- `requirements.txt` → Required Python libraries  
-- `results/` → Folder containing model performance results and plots  
+- `car.data` , `car.names` → Raw dataset  
 
 ---
 
