@@ -70,7 +70,7 @@ This project applies machine learning techniques to classify cars based on their
 ## **Key Takeaways**
 ✅ **SVM is the most effective model** for this dataset.  
 ✅ **Nested cross-validation** ensures unbiased model evaluation.  
-✅ **Hyperparameter tuning significantly improved SVM performance**.  
+✅ **Hyperparameter tuning significantly improved SVM model performance**.  
 ✅ **Feature encoding played a crucial role in model performance**.  
 ✅ **Minor misclassification in "vgood" suggests potential improvements with class balancing techniques**.  
 
