@@ -1,9 +1,9 @@
-# 🚗 Car Evaluation with Machine Learning  
+# Car Evaluation with Machine Learning  
 
-## 📌 Project Overview  
+## Project Overview  
 This project applies machine learning techniques to classify cars based on their attributes using the **Car Evaluation Dataset** from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Car+Evaluation). The goal is to predict whether a car falls into one of four categories: **unacceptable, acceptable, good, or very good**.  
 
-### 🔍 **Key Features**
+### **Key Features**
 - **Explores multiple ML models**: Decision Tree, k-NN, Logistic Regression, Naïve Bayes, and SVM.
 - **Handles ordinal data**: One-Hot Encoding used to preserve categorical distinctions.
 - **Imbalanced dataset solutions**: MCC included for robust performance tracking.
@@ -14,7 +14,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 📊 **Dataset Details**
+## **Dataset Details**
 - **Total records**: 1728  
 - **Features**: 6 categorical attributes  
 - **Target variable**: Categorical (4 classes)  
@@ -26,7 +26,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 🏗 **Project Structure**
+## **Project Structure**
 - `README.md` → Project documentation  
 - `car-evaluation.ipynb` → Jupyter Notebook with code and analysis  
 - `car-evaluation.pdf` → PDF version of the notebook  
@@ -34,7 +34,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 🚀 **Final Model - SVM Fine-Tuning**
+## **Final Model - SVM Fine-Tuning**
 **Best Hyperparameters:**  
 {
   "C": 10,
@@ -46,7 +46,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 🚀 **Final Performance on Test Set**
+## **Final Performance on Test Set**
 | Class  | Precision | Recall | F1-score |
 |--------|----------|--------|----------|
 | acc    | 97.96%   | 100%   | 98.97%   |
@@ -59,7 +59,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 📈 **ROC Curve Analysis**
+## **ROC Curve Analysis**
 - **AUC for all classes is near 1**, confirming strong separation ability.
 - **"vgood" class has a slightly lower AUC (~0.95)** due to its lower representation.
 - **SVM demonstrated the best ROC performance**, making it the most reliable classifier.
@@ -67,7 +67,7 @@ This project applies machine learning techniques to classify cars based on their
 
 ---
 
-## 📌 **Key Takeaways**
+## **Key Takeaways**
 ✅ **SVM is the most effective model** for this dataset.  
 ✅ **Nested cross-validation** ensures unbiased model evaluation.  
 ✅ **Hyperparameter tuning significantly improved SVM performance**.  
